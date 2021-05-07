@@ -13,7 +13,7 @@ public class Main {
         customer1.setId(1);
         customer1.setFirstName("Emir Bekir");
         customer1.setLastName("YAŞAR");
-        customer1.setNationalityID("55555555555");
+        customer1.setNationalityID("4444444444");
         customer1.setDateOfBirth(LocalDate.of(1997,2,16));
 
         BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
